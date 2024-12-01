@@ -1,0 +1,24 @@
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(43, 43, 43);
+    color: white;
+}
+
+#category{
+    font-weight: bold;
+    font-size: large;
+}
+
+.img-smartphone{
+    width: 4em;
+}
+
+h4{
+    margin-bottom: 0;
+}
+
+footer p {
+    margin-top: 0;
+}
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>E-commerse Smartphone</title>
+</head>
+<body>
+    <button type="button" onclick="modBg()"> Cambia background</button>
+
+   <h1>SmartZone</h1> 
+   <button type="button" onclick="modH1()"> Cambia h1</button>
+   <table>
+    <tr id="category">
+        <td>Immagine</td>
+        <td>Nome</td>
+        <td>Link</td>
+        <td>Prezzo</td>
+    </tr>
+    <tr>
+        <td><img class="img-smartphone" class="vibility" src="/assets/smartphone1.jpg" alt="Xiami Smartphone"></td>
+        <td>Xiaomi Redmi Note 13</td>
+        <td><a class="amazonLink" href="https://www.amazon.it/Xiaomi-Smartohone-fotocamera-processore-Snapdragon/dp/B0CSG93BF7/ref=sr_1_11?crid=2AEVDP7UOXNIU&dib=eyJ2IjoiMSJ9.ZEAppme_lVsT50aXGTMuGHr16od6wV3ecBPVNMersy425EZNu4jLj5QaOJwUHpU5YSQlqUUGUlDn6FSoggCcM4SLm26hllEC_k3f3I2f8_Rzc85rM-QRsV8XH-v5uzHqJFr80b6VGqHuqtOcQtZ6y28fNNVTzMmXIFLUOWgkbM3YF_zgkUjw03MdWOJfYUN7SSup7YD0GjmGDpwuoni73zw3-s1am6SXiVuH8DkBS5k5qEUuV60oM5Djyu3_Ige7bZnwkYKgXNLecuGzpkkBBndeelbLzau4RTyyXzS9KfY.Jcr3FGnmMJjhqmFYnjeYV2XnW2BBhlck7LWOnG9os5E&dib_tag=se&keywords=smartphone&qid=1732903012&sprefix=sma%2Caps%2C157&sr=8-11&ufe=app_do%3Aamzn1.fos.4ed3ebda-5e83-4808-af48-7e08fa6b1d8b">Link</a></td>
+        <td class="prezzi" >158,00€</td>
+    </tr>
+    <tr>
+        <td><img class="img-smartphone" src="/assets/smartphone2.jpg" alt="Motorola Smartphone"></td>
+        <td>Motorola g85</td>
+        <td><a class="amazonLink" href="https://www.amazon.it/MOTOROLA-Display-Snapdragon-batteria-5000mAh/dp/B0DBVDRNK5/ref=sr_1_16?crid=2AEVDP7UOXNIU&dib=eyJ2IjoiMSJ9.ZEAppme_lVsT50aXGTMuGHr16od6wV3ecBPVNMersy425EZNu4jLj5QaOJwUHpU5YSQlqUUGUlDn6FSoggCcM4SLm26hllEC_k3f3I2f8_Rzc85rM-QRsV8XH-v5uzHqJFr80b6VGqHuqtOcQtZ6y28fNNVTzMmXIFLUOWgkbM3YF_zgkUjw03MdWOJfYUN7SSup7YD0GjmGDpwuoni73zw3-s1am6SXiVuH8DkBS5k5qEUuV60oM5Djyu3_Ige7bZnwkYKgXNLecuGzpkkBBndeelbLzau4RTyyXzS9KfY.Jcr3FGnmMJjhqmFYnjeYV2XnW2BBhlck7LWOnG9os5E&dib_tag=se&keywords=smartphone&qid=1732903012&sprefix=sma%2Caps%2C157&sr=8-16&ufe=INHOUSE_INSTALLMENTS%3AIT_IHI_5M_VF">Link</a></td>
+        <td class="prezzi">198,73</td>
+    </tr>
+    <tr>
+        <td><img class="img-smartphone" src="/assets/Smartphone3.jpg" alt="Samsung Smartphone"></td>
+        <td>Samsung Galaxy A34</td>
+        <td><a class="amazonLink" href="https://www.amazon.it/Smartphone-espandibile-Batteria-Graphite-Versione/dp/B0BWS9WQDY/ref=sr_1_26?crid=2AEVDP7UOXNIU&dib=eyJ2IjoiMSJ9.ZEAppme_lVsT50aXGTMuGHr16od6wV3ecBPVNMersy425EZNu4jLj5QaOJwUHpU5YSQlqUUGUlDn6FSoggCcM4SLm26hllEC_k3f3I2f8_Rzc85rM-QRsV8XH-v5uzHqJFr80b6VGqHuqtOcQtZ6y28fNNVTzMmXIFLUOWgkbM3YF_zgkUjw03MdWOJfYUN7SSup7YD0GjmGDpwuoni73zw3-s1am6SXiVuH8DkBS5k5qEUuV60oM5Djyu3_Ige7bZnwkYKgXNLecuGzpkkBBndeelbLzau4RTyyXzS9KfY.Jcr3FGnmMJjhqmFYnjeYV2XnW2BBhlck7LWOnG9os5E&dib_tag=se&keywords=smartphone&qid=1732903012&sprefix=sma%2Caps%2C157&sr=8-26&ufe=app_do%3Aamzn1.fos.4ed3ebda-5e83-4808-af48-7e08fa6b1d8b">Link</a></td>
+        <td class="prezzi">209,00€</td>
+    </tr>
+    <tr>
+        <td><img class="img-smartphone" src="/assets/smartphone4.jpg" alt="Oppo Smartphone"></td>
+        <td>OPPO Reno11 F</td>
+        <td><a class="amazonLink" href="https://www.amazon.it/OPPO-Smartphone-fotocamera-ROM256GB-Supporto/dp/B0CXQ79RX8/ref=sr_1_41?crid=2AEVDP7UOXNIU&dib=eyJ2IjoiMSJ9.ZEAppme_lVsT50aXGTMuGHr16od6wV3ecBPVNMersy425EZNu4jLj5QaOJwUHpU5YSQlqUUGUlDn6FSoggCcM4SLm26hllEC_k3f3I2f8_Rzc85rM-QRsV8XH-v5uzHqJFr80b6VGqHuqtOcQtZ6y28fNNVTzMmXIFLUOWgkbM3YF_zgkUjw03MdWOJfYUN7SSup7YD0GjmGDpwuoni73zw3-s1am6SXiVuH8DkBS5k5qEUuV60oM5Djyu3_Ige7bZnwkYKgXNLecuGzpkkBBndeelbLzau4RTyyXzS9KfY.Jcr3FGnmMJjhqmFYnjeYV2XnW2BBhlck7LWOnG9os5E&dib_tag=se&keywords=smartphone&qid=1732903012&sprefix=sma%2Caps%2C157&sr=8-41">Link</a></td>
+        <td class="prezzi">220,97€</td>
+    </tr>
+    <tr>
+        <td><img class="img-smartphone" src="/assets/smartphone5.jpg" alt="Apple Iphone"></td>
+        <td>Apple iPhone 13</td>
+        <td><a class="amazonLink" href="https://www.amazon.it/Apple-iPhone-13-128-Mezzanotte/dp/B09G995PVT/ref=sr_1_1_sspa?crid=2F2R6953RIGDL&dib=eyJ2IjoiMSJ9.KPgMeqkP4-tO6cX6dp6VgnEHTFNAVEEqiztOu11m42o-PYHxu8K7_p4SppufP30ZZpgANevtt_xhT1MvTr-_OmZ7skLxBHQRU-apb6ykKBe_7nTxCohC97ucAgcsQKCk0kjarmIeX8owlS_HretvrmWeKbuNXG1xp6D3sJhnowseq0JDmjsPYAuoWdn1AD2OwduyciJxFo8Vd_xKmV7Xw5FoK5NfWlZcwZajGkVhH3dSqtN_r_DYjEaMi4ZkmUjH8mVLn7Ax3ZKjKsujFLuXcAUrBwAYYpg9veKooYexAsw.p_l6O30gbDcXOa0ZjwfET70g4ATpxuuwRBpTh6QkZ_s&dib_tag=se&keywords=iphone&qid=1732903177&sprefix=ip%2Caps%2C122&sr=8-1-spons&ufe=INHOUSE_INSTALLMENTS%3AIT_IHI_5M_APPLE&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">Link</a></td>
+        <td class="prezzi">497,00€</td>
+    </tr>
+   </table>
+
+   <button type="button" onclick="addCssLink()">Aggiungi CSS Link</button>
+   <button type="button" onclick="nascondiImg()">Nascondi Img</button>
+   <button type="button" onclick="riattivaImg()">Riattiva Img</button>
+   <button type="button" onclick="modPrezzi()">Modifica Prezzi</button>
+
+   <textarea name="Lascia un commento" id=""></textarea>
+   <button>invia commento</button>
+
+
+
+   <footer>
+    <h4>SmartZone</h4>
+    <p id="indirizzo">Via Toledo, 0 - Napoli</p>
+    <button type="button" onclick="modIndirizzo()">Cambia Indirizzo</button>
+   </footer>
+
+   <script src="/java.js"></script>
+</body>
+</html>
